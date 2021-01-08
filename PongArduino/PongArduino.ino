@@ -27,8 +27,8 @@ void loop() {
     char incoming = Serial.read();
     if (incoming !='\n') {
       hapticData += incoming;
-    } if (incoming == '\n'){
-       break;
+    } else if (incoming == '\n'){
+      break;
     } 
   }
   
